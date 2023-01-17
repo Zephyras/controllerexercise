@@ -21,6 +21,7 @@ public class UserController {
         return new UserDto(1, "Kyowook", "kyowook@gmail.com", specialties);
     }
 
+
 //    @RequestMapping(value = "/user")
 //    public UserDto getUser() {
 //        List<String> specialties = new ArrayList<>();
