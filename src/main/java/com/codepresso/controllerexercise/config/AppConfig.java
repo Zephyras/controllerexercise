@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
 
     @Bean
-    public PostService postService() {
+    public PostService postService2() {
         return new PostService();
     }
 }
